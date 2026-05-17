@@ -92,23 +92,38 @@ erie-cso-environmental-justice-gis/
 ### Figure 2 — Historical Redlining and CSO Exposure
 
 Overlay of HOLC grades and 1 km CSO exposure zones.
+<img width="1312" height="782" alt="image" src="https://github.com/user-attachments/assets/4ae7a992-3fc5-4558-b846-2db5310677c2" />
+
+![Figure 2](outputs/figures/Fig.%203.png)
 
 ### Figure 3 — Environmental Justice Vulnerability and CSO Exposure
 
 Composite EJ vulnerability index based on poverty, renter occupancy, and nonwhite population.
+<img width="1341" height="749" alt="image" src="https://github.com/user-attachments/assets/4bca6a1e-99ac-4717-b803-3a171f3bc8a3" />
+
+![Figure 3](outputs/figures/Fig.%203.png)
 
 ### Figure 4 — Flood Risk and CSO Exposure
 
 Overlay of FEMA flood-prone areas and CSO exposure zones.
 
+<img width="1330" height="777" alt="image" src="https://github.com/user-attachments/assets/820551d0-04fc-4cb8-a674-a264f1087a57" />
+
+![Figure 4](outputs/figures/Fig.%203.png)
+
 ### Figure 5 — Spatial Concentration of CSO Intensity
 
 Kernel density estimation of cumulative CSO overflow intensity.
+<img width="1192" height="775" alt="image" src="https://github.com/user-attachments/assets/68f5f07b-4ff7-4b10-a5cd-6a09f35e3e82" />
+
+![Figure 5](outputs/figures/Fig.%203.png)
 
 ### Figure 6 — Census Tract Burden of CSO Exposure
 
 Classification of census tracts based on CSO exposure burden.
+<img width="1317" height="709" alt="image" src="https://github.com/user-attachments/assets/79b2965b-97f8-4198-aa7f-6859ccca6fd3" />
 
+![Figure 6](outputs/figures/Fig.%203.png)
 ---
 
 ## ArcPy Workflow
