@@ -91,32 +91,44 @@ erie-cso-environmental-justice-gis/
 
 ### Figure 2 — Historical Redlining and CSO Exposure
 Overlay of HOLC grades and 1 km CSO exposure zones.
-<img width="1312" height="782" alt="image" src="https://github.com/user-attachments/assets/4ae7a992-3fc5-4558-b846-2db5310677c2" />
+<img width="895" height="548" alt="image" src="https://github.com/user-attachments/assets/49ac9d78-2922-4633-aeda-45e7a60ab13e" />
 
 ### Figure 3 — Environmental Justice Vulnerability and CSO Exposure
 
 Composite EJ vulnerability index based on poverty, renter occupancy, and nonwhite population.
-<img width="1341" height="749" alt="image" src="https://github.com/user-attachments/assets/4bca6a1e-99ac-4717-b803-3a171f3bc8a3" />
+<img width="905" height="517" alt="image" src="https://github.com/user-attachments/assets/ab77780b-e78e-4d1e-9656-571a18a9ae19" />
 
 ### Figure 4 — Flood Risk and CSO Exposure
 
 Overlay of FEMA flood-prone areas and CSO exposure zones.
-
-<img width="1330" height="777" alt="image" src="https://github.com/user-attachments/assets/820551d0-04fc-4cb8-a674-a264f1087a57" />
+<img width="900" height="539" alt="image" src="https://github.com/user-attachments/assets/c832bb21-726f-410c-a7e8-7edbcc1cb3e3" />
 
 ### Figure 5 — Spatial Concentration of CSO Intensity
 
 Kernel density estimation of cumulative CSO overflow intensity.
-<img width="1192" height="775" alt="image" src="https://github.com/user-attachments/assets/68f5f07b-4ff7-4b10-a5cd-6a09f35e3e82" />
+<img width="1196" height="818" alt="image" src="https://github.com/user-attachments/assets/24806cb6-c1c3-43d0-aaf0-e943d716d7d5" />
 
 ### Figure 6 — Census Tract Burden of CSO Exposure
 
 Classification of census tracts based on CSO exposure burden.
-<img width="1317" height="709" alt="image" src="https://github.com/user-attachments/assets/79b2965b-97f8-4198-aa7f-6859ccca6fd3" />
+<img width="922" height="505" alt="image" src="https://github.com/user-attachments/assets/e16ceec9-c303-42f2-b01d-9deb70b3017c" />
 
 ---
 
 ## ArcPy Workflow
+Raw Data
+↓
+Cleaning
+↓
+Buffer Analysis
+↓
+Spatial Join
+↓
+EJ Analysis
+↓
+Kernel Density
+↓
+Export Figures/Tables
 
 Main workflow script:
 
@@ -137,7 +149,7 @@ The script automates:
 
 ## Outputs
 
-### Figures
+## Findings
 
 Located in:
 
@@ -159,16 +171,12 @@ Includes:
 * non_exposed_stats.csv
 
 ---
+## Key Findings
 
-## Example Findings
-
-Preliminary results suggest that census tracts located within CSO exposure zones exhibit:
-
-* Higher poverty rates
-* Higher renter occupancy
-* Greater concentrations of socially vulnerable populations
-
-The analysis also reveals spatial overlap between historical disinvestment patterns and contemporary infrastructure risk exposure.
+- Historically redlined neighborhoods show higher overlap with CSO exposure zones.
+- Census tracts near CSO infrastructure exhibit elevated poverty and renter occupancy rates.
+- Spatial hotspot analysis identifies concentrated CSO intensity near central Erie infrastructure corridors.
+- Flood-prone areas substantially intersect with CSO exposure buffers, indicating compounding infrastructure vulnerability..
 
 ---
 
