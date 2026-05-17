@@ -90,11 +90,9 @@ erie-cso-environmental-justice-gis/
 ## Key Figures
 
 ### Figure 2 — Historical Redlining and CSO Exposure
-
 Overlay of HOLC grades and 1 km CSO exposure zones.
 <img width="1312" height="782" alt="image" src="https://github.com/user-attachments/assets/4ae7a992-3fc5-4558-b846-2db5310677c2" />
-
-![Figure 2](outputs/figures/Fig.%203.png)
+![Figure23](outputs/figures/Fig.%203.png)
 
 ### Figure 3 — Environmental Justice Vulnerability and CSO Exposure
 
