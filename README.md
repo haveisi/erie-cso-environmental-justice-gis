@@ -19,6 +19,18 @@ The project combines GIS mapping, environmental justice analysis, and automated 
 
 ---
 
+## Project Overview
+
+...
+
+## Project Significance
+
+This project demonstrates how GIS and spatial automation can support environmental justice analysis by identifying overlaps between aging wastewater infrastructure, socially vulnerable populations, historical disinvestment patterns, and flood-prone areas.
+
+## Research Questions
+
+...
+
 ## Research Questions
 
 - Which census tracts experience the highest CSO exposure burden?
@@ -116,19 +128,22 @@ Classification of census tracts based on CSO exposure burden.
 ---
 
 ## ArcPy Workflow
-Raw Data
-↓
-Cleaning
-↓
-Buffer Analysis
-↓
-Spatial Join
-↓
-EJ Analysis
-↓
-Kernel Density
-↓
-Export Figures/Tables
+## ArcPy Workflow
+
+Raw Data  
+↓  
+Data Cleaning  
+↓  
+Buffer Analysis  
+↓  
+Spatial Join & EJ Analysis  
+↓  
+Kernel Density Hotspot Analysis  
+↓  
+Summary Statistics  
+↓  
+Automated Figure & Table Export
+
 
 Main workflow script:
 
@@ -149,9 +164,9 @@ The script automates:
 
 ## Outputs
 
-## Findings
+## Key Findings
 
-Located in:
+Figures and statistical outputs are stored in:
 
 ```text
 outputs/figures/
